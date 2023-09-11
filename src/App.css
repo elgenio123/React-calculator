@@ -1,0 +1,60 @@
+
+.my-container{
+  display: block;
+  width: 28%;
+  height: 70vh;
+  justify-content: center;
+  background-color: #1a1a1a;
+  margin: 30px 36%;
+  padding: 6px;
+  box-shadow: 10px 10px 6px rgb(56, 56, 56);
+  border-radius: 8px;
+}
+.text-fields{
+  display: flex;
+  flex-direction: column;
+}
+.text-fields input{
+  height: 35px ;
+  padding-top: 17px;
+  font-size: 30px;
+  text-align: right;
+  background-color: inherit;
+  border: none;
+  color: white;
+  pointer-events: none;
+  accent-color: inherit;
+}
+.text-fields input:focus{
+  border: none;
+}
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.buttons button{
+  height: 70px;
+  background-color: rgba(119, 113, 113, 0.377);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.buttons button:hover{
+  background-color: rgba(221, 212, 212, 0.377);
+  border: 1px solid wheat;
+}
+.buttons #clear{
+  grid-column: span 2;
+  background-color: rgb(245, 114, 114);
+}
+.buttons #equals{
+  grid-row: span 2;
+  height: 100%;
+  background-color: rgb(167, 98, 231);
+}
+.buttons #zero{
+  grid-column: span 2;
+}
+h3, p, h1{
+  text-align: center;
+}
